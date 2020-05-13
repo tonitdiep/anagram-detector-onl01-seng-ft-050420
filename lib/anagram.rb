@@ -11,8 +11,6 @@ attr_accessor :words
   @words.split("").sort == some_words.split("").sort
   end
   end
+end
   # .sort .split() .detect ==
   #return all matches in an array or otherwise, return nil/empty array
-
-# binding.pry
-end
